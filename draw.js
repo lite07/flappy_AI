@@ -20,3 +20,11 @@ function clearCanvas()
 {
   ctx.clearRect(0,0,960,540);
 }
+
+function drawGame(topPipe, bottomPipe, fBird)
+{
+  clearCanvas();
+  drawPipe(topPipe);
+  drawPipe(bottomPipe);
+  drawBird(fBird);
+}
